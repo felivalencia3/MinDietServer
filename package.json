@@ -1,0 +1,57 @@
+{
+  "name": "dietgrapherserver",
+  "version": "2.0.0",
+  "description": "REST API made in Node.js for Use with DietGrapherClient",
+  "main": "server.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "felivalencia3"
+  },
+  "keywords": [
+    "REST",
+    "Express",
+    "Node"
+  ],
+  "author": "Felipe Valencia",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-polyfill": "^6.26.0",
+    "body-parser": "^1.18.3",
+    "chart.js": "^2.7.3",
+    "compression": "^1.7.3",
+    "cors": "^2.8.5",
+    "create-react-class": "^15.6.3",
+    "debug": "^4.1.1",
+    "errorhandler": "^1.5.0",
+    "express": "^4.16.3",
+    "express-jwt": "^5.3.1",
+    "express-session": "^1.15.6",
+    "helmet": "^3.15.0",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.4.2",
+    "morgan": "^1.9.1",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "prop-types": "^15.6.2",
+    "rc-slider": "^8.6.4",
+    "react": "^16.5.2",
+    "react-beforeunload": "^1.0.4",
+    "react-chartjs": "^1.2.0",
+    "react-chartjs-2": "^2.7.4",
+    "react-dom": "^16.5.2",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-toolbox": "^2.0.0-beta.13",
+    "redux": "^4.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.15.0"
+  }
+}
